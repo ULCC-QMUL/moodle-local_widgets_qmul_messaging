@@ -1,0 +1,20 @@
+{{!
+  Display the details of a single message.
+}}
+<div class="message {{unread}}">
+    <div class="messagefrom mb-0">
+      <span>From: {{firstname}} {{lastname}}</span>
+      <span class="widget-qmulmessaging-datedisplay">{{displaytime}}</span>
+    <div>
+    {{#abbrroles}}
+      <span>To all {{abbrroles}} </span>
+    {{/abbrroles}}
+      <span>{{catname}}</span>
+    </div>
+    </div>
+
+    <a href="{{viewurl}}" class="viewmessage">
+    <div class="text-primary messagesubject">
+    <span>{{subject}}</span>
+    </div></a>
+</div>

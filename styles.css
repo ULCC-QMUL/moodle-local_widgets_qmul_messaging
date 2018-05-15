@@ -1,0 +1,8 @@
+.widgettype-qmulmessaging .widget-title {
+    color: green;
+}
+.widget-qmulmessaging-datedisplay{
+    float:right;
+    font-style:italic;
+    color:darkgrey;
+}
