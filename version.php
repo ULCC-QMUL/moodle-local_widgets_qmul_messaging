@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2018020801;
+$plugin->version   = 2018060400;
 $plugin->requires  = 2016120500; // M3.2.
 $plugin->component = 'widgettype_qmulmessaging';
 $plugin->maturity  = MATURITY_BETA;

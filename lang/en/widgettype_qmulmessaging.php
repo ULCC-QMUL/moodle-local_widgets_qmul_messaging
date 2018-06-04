@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['qmulmessaging:use'] = 'Use Messaging widget';
-$string['pluginname'] = 'QMUL messaging';
+$string['pluginname'] = 'QMUL noticeboard widget';
 $string['titlename'] = 'Noticeboard';
 $string['description'] = 'A widget to show notice-board, role-based messaging system for category course managers and admins.';
 $string['nonotices'] = 'You have no notices.';
